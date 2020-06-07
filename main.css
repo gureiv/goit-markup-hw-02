@@ -1,10 +1,12 @@
 :root {
   --title-color: #212121;
   --text-color: #757575;
-  --font-logo: "Raleway";
-  --font-text: "Roboto";
+  --font-logo: "Raleway", sans-serif;
+  --font-text: "Roboto", sans-serif;
   --main-color: #2196f3;
-  --footer-color: #e26c6c;
+  --footer-color: #ffffff;
+  --footer-address: rgba(255, 255, 255, 0.6);
+  --footer-source: rgba(255, 255, 255, 0.4);
 }
 body {
   font-family: var(--font-text);
@@ -66,13 +68,14 @@ h3 {
   color: var(--main-color);
 }
 .contacs {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contac {
-  color: var(--title-color);
+  color: var(--text-color);
 }
 .contac:hover,
 .contac:focus {
@@ -92,12 +95,25 @@ h3 {
   text-transform: uppercase;
   color: var(--title-color);
 }
+.techno {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
 p {
   color: var(--text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.work {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.85;
   letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 .name {
   font-weight: 500;
@@ -121,6 +137,7 @@ p {
   letter-spacing: 0.03em;
 }
 .footer-studio {
+  font-style: normal;
   color: var(--footer-color);
 }
 .footer-addres {
@@ -138,7 +155,7 @@ p {
   text-transform: uppercase;
 }
 .buttom {
-  color: white;
+  color: var(--footer-color);
   background-color: #2196f3;
 }
 .source {
