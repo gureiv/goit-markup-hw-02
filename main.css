@@ -27,6 +27,7 @@ h1 {
   text-transform: uppercase;
 }
 h2 {
+  color: var(--title-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -53,28 +54,32 @@ h3 {
 .studio {
   color: black;
 }
-.navigation {
+.site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.list-items {
+.link {
   color: var(--title-color);
 }
-.list-items:hover,
-.list-items:focus {
+.link:hover,
+.link:focus{
   color: var(--main-color);
 }
+.site-nav .link.current {
+  color: var(--main-color);
+}
+}
 .contacs {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contac {
+  font-style: normal;
   color: var(--text-color);
 }
 .contac:hover,
@@ -86,6 +91,14 @@ h3 {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+   color: var(--title-color);
+}
+.list-items{
+  color: var(--title-color);
+} 
+.list-items:hover,
+.list-items:focus{
+   color: var(--main-color);
 }
 .quality {
   font-weight: 700;
@@ -93,13 +106,14 @@ h3 {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-color);
+  color: var(--footer-color);
 }
 .techno {
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.03em;
+  color: var(--footer-color);
 }
 p {
   color: var(--text-color);
@@ -127,18 +141,10 @@ p {
   font-size: 16px;
   line-height: 1.18px;
   letter-spacing: 0.03em;
-  color: var(--text-color);
-}
-.footer-logo {
-  font-family: var(--font-logo);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .footer-studio {
+  color: var(--footer-address);
   font-style: normal;
-  color: var(--footer-color);
 }
 .footer-addres {
   font-weight: 400;
@@ -157,9 +163,13 @@ p {
 .buttom {
   color: var(--footer-color);
   background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 .source {
-  color: var(--footer-color);
+  color: var(---footer-source);
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
