@@ -55,30 +55,26 @@ h3 {
   color: black;
 }
 .site-nav {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .link {
   color: var(--title-color);
 }
 .link:hover,
-.link:focus{
+.link:focus {
   color: var(--main-color);
 }
-.site-nav .link.current {
+.site-nav .link-current {
   color: var(--main-color);
 }
-}
-.contacs {
+.contac {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-.contac {
   font-style: normal;
   color: var(--text-color);
 }
@@ -91,16 +87,24 @@ h3 {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-   color: var(--title-color);
-}
-.list-items{
   color: var(--title-color);
-} 
+}
+.list-items {
+  color: var(--title-color);
+}
 .list-items:hover,
-.list-items:focus{
-   color: var(--main-color);
+.list-items:focus {
+  color: var(--main-color);
 }
 .quality {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+.quality-second {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -143,7 +147,7 @@ p {
   letter-spacing: 0.03em;
 }
 .footer-studio {
-  color: var(--footer-address);
+  color: var(--footer-color);
   font-style: normal;
 }
 .footer-addres {
@@ -169,7 +173,7 @@ p {
   letter-spacing: 0.06em;
 }
 .source {
-  color: var(---footer-source);
+  color: var(--footer-source);
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
